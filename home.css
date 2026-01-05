@@ -1,0 +1,53 @@
+
+/* HOME PAGE LAYOUT */
+
+.page {
+  width: 100%;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1a1a1a;
+  border-bottom: 2px solid orange;
+}
+
+.top-bar h1 {
+  color: orange;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: calc(100vh - 70px);
+}
+
+/* LEFT VERTICAL LINE OF F */
+.sidebar {
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+/* RIGHT HORIZONTAL LINES OF F */
+.main-content {
+  padding: 30px;
+}
+
+.main-content h2,
+.main-content h3 {
+  color: orange;
+  margin-bottom: 10px;
+}
